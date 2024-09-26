@@ -1,6 +1,6 @@
 ---
 
-# File Directory Server with Express
+# Display File Directory on HTML with Node JS
 
 This project is a simple Node.js server that uses `express` to serve static files and `serve-index` to provide a directory listing. It is built with ES modules and demonstrates how to set up a basic server to browse files in a directory via a web interface.
 
