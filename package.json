@@ -2,10 +2,17 @@
   "name": "display-directory-nodejs",
   "version": "1.0.0",
   "description": "",
+  "type":"module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "fs-extra": "^11.2.0",
+    "nodemon": "^3.1.4",
+    "serve-index": "^1.9.1"
+  }
 }
